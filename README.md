@@ -24,7 +24,7 @@ try ... except untuk menangani error agar program tidak crash jika terjadi masal
 
 open(FILE_PATH, "r", ...) & json.load(f) akan membaca file inventaris.json dan mengonversi format JSON menjadi struktur data. <br>
 
-except FileNotFoundError Jika file inventaris.json belum ada, program secara otomatis membuat file baru berisi list kosong ([]) lalu mengembalikan []. br>
+except FileNotFoundError Jika file inventaris.json belum ada, program secara otomatis membuat file baru berisi list kosong ([]). br>
 
 except json.JSONDecodeError Jika file JSON rusak atau kosong (tidak berformat valid), fungsi akan mengembalikan list kosong ([]) agar program tetap berjalan aman. <br>
 <br>
@@ -75,10 +75,11 @@ Ini adalah kondisi Inventaris.json ketika data baru ditambahkan.<br>
 Dan jika kita memilih "3" pada menu, maka program telah selesai untuk digunakan.<br>
 <br>
 <img width="693" height="471" alt="Cuplikan layar 2026-10-08 043755" src="https://github.com/user-attachments/assets/3776b74d-b929-46f5-9d56-512045ea0240" /> <br>
-Namun, walaupun program dimulai kembali, data dari program sebelumnya yaitu "Tepung 1kg" masih tetap ada di dalam data dan tersimpan permanen di dalam Inventaris.json.
-
-
-
-
-
+Namun, walaupun program dimulai kembali, data dari program sebelumnya yaitu "Tepung 1kg" masih tetap ada di dalam data dan tersimpan permanen di dalam Inventaris.json.<br>
+<br>
+Bukti bahwa data baru tetap tersimpan meskipun program dijalankan kembali.<br>
+<br>
+<img width="1920" height="1080" alt="Screenshot (134)" src="https://github.com/user-attachments/assets/c598abd8-73c8-4064-96dc-279882a8cb4d" /> <br>
+<img width="1920" height="1080" alt="Screenshot (135)" src="https://github.com/user-attachments/assets/65f14019-34a3-4ec8-83f6-1648b837551f" /> <br>
+Walaupun telah selesai menggunakan kode program dengan menu "3" atau menu keluar, ketika kita memulai kembali, data baru yaitu "Tepung 1kg" masih tersimpan dan akan ikut ditampilkan ketika memilih menu "1" pada program yang baru dijalankan.
 
