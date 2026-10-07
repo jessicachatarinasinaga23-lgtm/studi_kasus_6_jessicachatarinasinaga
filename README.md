@@ -1,0 +1,1 @@
+# studi_kasus_6_jessicachatarinasinaga
