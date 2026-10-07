@@ -1,0 +1,26 @@
+[
+    {
+        "kode_barang": "B001",
+        "nama_barang": "Beras 5kg",
+        "stok": 20,
+        "harga": 65000
+    },
+    {
+        "kode_barang": "B002",
+        "nama_barang": "Minyak Goreng 1L",
+        "stok": 15,
+        "harga": 18000
+    },
+    {
+        "kode_barang": "B003",
+        "nama_barang": "Beras",
+        "stok": 50,
+        "harga": 12500
+    },
+    {
+        "kode_barang": "B004",
+        "nama_barang": "Telur",
+        "stok": 100,
+        "harga": 2000
+    }
+]
